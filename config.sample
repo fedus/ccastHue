@@ -1,0 +1,14 @@
+# ccastHue.py configuration file (YAML)
+
+ccast:
+ ip: none       # Chromecast IP address (not currently used)
+ port: 8008     # Chromecast port (not currently used)
+ app: Backdrop  # App under surveillance
+
+hue:
+ ip:     # Hue Bridge IP
+ key:    # Hue client key
+
+self:
+ group:               # Light group to control
+ interval:            # Interval for the checking of Chromecast activity in seconds
